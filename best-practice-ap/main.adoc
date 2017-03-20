@@ -1,0 +1,63 @@
+= "Best practice" for aksesspunkter
+Direktoratet for forvaltning og IKT
+v0.9
+:description: Dette dokumentet beskriver «best practice» for aksesspunkter.
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 2
+// :source-highlighter: coderay
+// :source-language: xml
+:sectanchors:
+:sectnums:
+
+Dette dokumentet beskriver «best practice» for aksesspunkter. Difi vil oppdatere dokumentet ved
+behov, men endringer vil varsles minst 2 måneder før de trer i kraft. Aksesspunkter som oppfyller
+innholdet i dokumentet kan benytte dette i sin markedsføring.
+
+
+== Dokumentversjon
+
+[cols="1,2,4,2",options="header"]
+|===
+| Versjon | Gyldig f.o.m. | Endring | Endret av
+| 0.9 | 17.06.2014 | Opprettelse av dokument | Difi - Endre
+|===
+
+
+== Kunder har tilgang på forsendelsesstatus
+
+Avsender og skal kunne se reell status for dokumenter som skal sendes, enten de er overført til
+aksesspunktet for sending eller generert av tjenester levert av samme leverandør. Status gjøres
+tilgjengelig i sluttbrukersystemet eller gjennom andre egnede metoder basert på plattform som
+benyttes til å levere tjenestene til kundene.
+
+Status på forsendelser kan være (på norsk, i oversatt form eller i tilpasset form):
+
+*  I kø
+* Feilet under validering
+* Feilet under sending
+* Sendt
+* Mottatt (forutsetter MLR)
+
+Forsendelser med status «Sendt» og «Mottatt» skal inneholde identifikator mottakende aksesspunkt
+kvitterte med.
+
+
+== Korrekt bruk av EndpointId
+Aksesspunktet skal være tydelig i sin informasjon om hvordan EndpointId skal benyttes, og hvilke
+konsekvenser det har dersom det er brukt feil. Det kan gjøres gjennom gode ledetekster i
+sluttbrukersystemet eller gjennom direkte dialog med kunder som selv genererer dokumenter.
+
+
+== Mottakere er informert om sin registrering i SMP/ELMA
+
+Alle mottakere som registreres i en SMP/ELMA skal ha tilgang på informasjon om hva det innebærer.
+Informasjonen skal være kundespesifikk, og eksempelvis gjøres tilgjengelig i sluttbrukersystemet.
+Korrekt kontaktinformasjon skal være lett tilgjengelig.
+
+
+== Aksesspunktet kan motta filer på inntil 100 MB
+
+Aksesspunktet skal kunne motta filer på inntil 100 MB for alle mottakere som benytter aksesspunktet
+som sin leverandør.
